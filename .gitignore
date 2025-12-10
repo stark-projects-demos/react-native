@@ -81,3 +81,12 @@ yarn-error.log
 .env
 .env.local
 .env.*.local
+
+# Expo
+.expo/
+.expo-shared/
+dist/
+web-build/
+
+# @generated expo-cli sync
+.expo-cli/

@@ -1,14 +1,18 @@
 # React Native Demo App
 
-This is a simple demo React Native application that shows how to use Stark's accessibility scanner.
+This is a simple demo React Native application built with Expo that shows how to use Stark's accessibility scanner.
 
-This app intentionally contains accessibility issues for demonstration purposes.
+To test sending results to your [Stark dashboard](https://app.getstark.co), follow the instructions at [https://www.getstark.co/support/getting-started/using-source-code-integration/](https://www.getstark.co/support/getting-started/using-source-code-integration/)
+
 
 ## Getting Started
 
 ```bash
 # Install dependencies
 npm install
+
+# Start Expo development server
+npm start
 
 # Run on iOS
 npm run ios

@@ -1,4 +1,5 @@
 import React from 'react';
+import { StatusBar } from 'expo-status-bar';
 import {
   SafeAreaView,
   ScrollView,
@@ -12,6 +13,7 @@ import {
 const App = () => {
   return (
     <SafeAreaView style={styles.container}>
+      <StatusBar style="auto" />
       <ScrollView style={styles.scrollView}>
         {/* Header */}
         <View style={styles.header}>
