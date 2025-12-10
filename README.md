@@ -19,4 +19,7 @@ npm run ios
 
 # Run on Android
 npm run android
+
+# Run on browser
+npm run web
 ```
